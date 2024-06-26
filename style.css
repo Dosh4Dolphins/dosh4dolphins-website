@@ -50,6 +50,7 @@ p {
   text-align: center;
 }
 p2 {
+  display: block;
   font-size: large;
   color: #031A6B;
   text-align: center;
