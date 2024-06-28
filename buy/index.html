@@ -16,7 +16,27 @@
   </head>
   <body>
   <center>
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe5oTRhySZYzPzNjlxJCoDODDCITYS4Qcy3OM5u85hZTD_T2Q/viewform?embedded=true" width="640" height="1513" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <h1>Contact Us</h1>
+    <h1>Buy a Dolphin</h1>
+        <form action="process_order.php" method="post">
+            <label for="dolphin">Choose your Dolphin:</label>
+            <select id="dolphin" name="dolphin" required>
+                <option value="Bruce">Bruce</option>
+                <option value="Sharon">Sharon</option>
+                <option value="Wacko">Wacko</option>
+            </select>
+
+            <label for="coupon">Coupon Code:</label>
+            <input type="text" id="coupon" name="coupon">
+
+            <label for="customer_name">Your Name:</label>
+            <input type="text" id="customer_name" name="customer_name" required>
+
+            <label for="customer_email">Your Email:</label>
+            <input type="email" id="customer_email" name="customer_email" required>
+
+            <button type="submit">Submit Order</button>
+        </form>
   </center>
   </body>
 </html>
